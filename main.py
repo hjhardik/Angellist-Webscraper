@@ -8,13 +8,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
 
-location_name = 'New york'    ######enter the city
-chrome_driver_path = 'chromedriver.exe'        #update where the chrome driver is located
+location_name = 'CITY TO BE SEARCHED'    ######enter the city
+chrome_driver_path = 'PATH WHERE THE CHROMEDRIVER IS STORED'        #update where the chrome driver is located
 
-email = 'blackcofferconsulting@gmail.com'            ######login credentials
-password = 'Blackcoffer!'
 
-captcha_complete = 60    ################# 60 seconds to complete captcha
+email = 'YOUR EMAIL'            ######login credentials
+password = 'YOUR PASSWORD'
+
+captcha_complete = 60    ################# 60 seconds to complete captcha if captcha is laid out
 
 
 ############### all the tags required
